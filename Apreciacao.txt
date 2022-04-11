@@ -1,0 +1,11 @@
+﻿Palavras chaves: Análise, gráficos, Interpretação
+Link do Git
+Acurácia 0.987
+
+
+Trabalho MPL 
+Felipe Boschetti
+
+
+Os principais pontos para a melhora da acurácia são observar os dados brutos fornecidos e principalmente gráficos plotados. Com os dados brutos é possível traçar um paralelo com a realidade e adicionando mais colunas como entradas o resultado melhorou significativamente. Porém é importante lembrar também que nem sempre mais dados de entrada significam resultados melhores e é aí que entra a análise do que faz sentido, ou não, ser dado como entrada e a forma mais comum e mais fácil de analisar esses dados é plotando os gráficos onde, no gráfico de cores principalmente, é muito fácil notar a correlação entre as variáveis, por exemplo, no caso a coluna "Referência" adicionada mostra uma correlação muito alta com o output.
+Outro gráfico que também tem que ser levado em consideração é o gráfico da evolução do erro, onde é possível ver que a partir de 4000 épocas a evolução se torna lenta demais e talvez fosse melhor diminuir a quantidade de 100000 como eu coloquei para algo mais próximo dessas 4000, assim economizando tempo e energia.
